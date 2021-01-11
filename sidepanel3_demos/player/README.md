@@ -13,6 +13,10 @@ An 8-bit tune from a well-known video game playing through speaker.
 
 We're using audio amplifier + speaker module to hear output being played.
 
+Install MD_AD9833 library through Arduino Library manager (Tools>Manager Libraries...):
+
+![Library installation](libraryinstallation.png)
+
 Make sure that audio amplifier gain (top potentiometer) and function generator output control (bottom potentiometer) is not turned all the way down, otherwise you won't be able to hear anything.
 
 Notes are predefine and hard-coded into melody array.

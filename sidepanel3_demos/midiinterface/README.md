@@ -19,25 +19,29 @@ We're using audio amplifier + speaker module to hear output being played.
 
 Make sure that audio amplifier gain (top potentiometer) and function generator output control (bottom potentiometer) is not turned all the way down, otherwise you won't be able to hear anything.
 
-1. Install computer software by following the guide at:
+1. Install MD_AD9833 library through Arduino Library manager (Tools>Manager Libraries...):
+
+![Library installation](libraryinstallation.png)
+
+2. Install computer software by following the guide at:
 
     [https://github.com/alairock/serialmidi](https://github.com/alairock/serialmidi)
 
-2. Program your TotemDuino with the demo software. Make sure that you can hear a short beep after turning on TotemDuino. This confirms that everything on that side is working correctly.
-3. While in the helper application directory, launch serialmidi.py with:
+3. Program your TotemDuino with the demo software. Make sure that you can hear a short beep after turning on TotemDuino. This confirms that everything on that side is working correctly.
+4. While in the helper application directory, launch serialmidi.py with:
  
     python serialmidi.py
 
-4. Optionally you can supply debug parameter to see flowing messages in and out of the serial port:
+5. Optionally you can supply debug parameter to see flowing messages in and out of the serial port:
 
     python serialmidi.py --debug
 
     ![Sample output of serialmidi.py helper script](serialmidioutput.png)
     
 
-5. Use any kind of MIDI generating software or hardware compatible with you computer to play notes, which will be passed onto TotemDuino board. In this demo a keyboard has been connected to the computer through USB interface.
+6. Use any kind of MIDI generating software or hardware compatible with you computer to play notes, which will be passed onto TotemDuino board. In this demo a keyboard has been connected to the computer through USB interface.
 
-6. Due to limitations of our firmware, only one note can be played at a time.
+7. Due to limitations of our firmware, only one note can be played at a time.
 
 # Schematics
 

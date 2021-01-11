@@ -4,7 +4,6 @@
 #include <MD_AD9833.h>
 #include <SPI.h>
 #include "notes.h"
-#include "musicsheets.h"
 
 // Pins for SPI comm with the AD9833 IC
 #define FSYNC 10  ///< SPI Load pin number (FSYNC in AD9833 usage)
