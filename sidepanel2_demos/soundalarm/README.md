@@ -21,4 +21,4 @@ We'll be using Adafruit's graphical library together with drivers for the chip u
 3. You may need to adjust threshold values depending on your environment -- increasing TRIGGERVALUE will cause sensitivity to drop.
 
 # Schematics:
-![Schematics for sound alarm](schematics.png 
+![Schematics for sound alarm](schematics.png)
