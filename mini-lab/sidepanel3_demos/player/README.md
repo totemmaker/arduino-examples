@@ -1,4 +1,5 @@
-# Minimal generator
+# Music player
+
 Extends the minimal_generator project by adding a very basic note playing ability. Each note consists of two bytes of data (pitch and length), allowing you to play rudimentary monophonic recordings.
 
 # Requirements:
